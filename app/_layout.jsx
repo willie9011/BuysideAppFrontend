@@ -1,3 +1,4 @@
+// app/
 import {Slot, SplashScreen, Stack} from "expo-router";
 import "../global.css"; // 確保這個路徑是正確的
 import{useFonts} from "expo-font";
