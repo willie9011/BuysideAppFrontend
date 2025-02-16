@@ -54,14 +54,14 @@ npx expo start
 ```
 buysideWithReactExpo/
 ├── app/                   # 主要應用程式畫面和導航
-│   ├── (auth)/           # 認證相關畫面
+│   ├── (auth)/           # 登入與註冊相關畫面
 │   ├── (tabs)/           # 分頁導航畫面
 │   └── search/           # 搜尋功能
 ├── assets/               # 靜態資源 (圖片、字體)
-├── components/           # 可重用的 UI 元件
+├── components/           # 可重複使用的 UI 元件
 ├── config/               # 設定檔
 ├── constants/            # 常數值和主題設定
-├── hooks/                # 自定義 React Hooks
+├── hooks/                # 自訂 React Hooks
 └── scripts/             # 建置和工具腳本
 ```
 
@@ -94,9 +94,9 @@ buysideWithReactExpo/
 
 主要的自定義元件包括：
 
-- FormField: 可重用的表單輸入元件
-- CustomButton: 標準化按鈕元件
-- TabIconConfig: 自定義分頁導航圖示
+- FormField: 表單輸入元件 (SignIn SignOut)
+- - CustomButton: 客製化按鈕
+- TabIconConfig: 分頁導航欄
 
 ## 聯絡方式
 
